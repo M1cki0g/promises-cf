@@ -1,6 +1,5 @@
 
          function upperCaseAsync(s) {
-            write your code here
            return new Promise((resolve, reject) => {
                if (s != null) {
                resolve(s.toUpperCase());
